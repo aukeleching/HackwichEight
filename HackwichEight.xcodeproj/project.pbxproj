@@ -14,6 +14,7 @@
 		7F9051C82072BEA400085B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9051C62072BEA400085B33 /* LaunchScreen.storyboard */; };
 		7F9051D32072BEA500085B33 /* HackwichEightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9051D22072BEA500085B33 /* HackwichEightTests.swift */; };
 		7F9051DE2072BEA500085B33 /* HackwichEightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9051DD2072BEA500085B33 /* HackwichEightUITests.swift */; };
+		7F9051EC2072C50200085B33 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9051EB2072C50200085B33 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7F9051D92072BEA500085B33 /* HackwichEightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichEightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9051DD2072BEA500085B33 /* HackwichEightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichEightUITests.swift; sourceTree = "<group>"; };
 		7F9051DF2072BEA500085B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9051EB2072C50200085B33 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		7F9051BC2072BEA400085B33 /* HackwichEight */ = {
 			isa = PBXGroup;
 			children = (
+				7F9051EB2072C50200085B33 /* Restaurant.swift */,
 				7F9051BD2072BEA400085B33 /* AppDelegate.swift */,
 				7F9051BF2072BEA400085B33 /* ViewController.swift */,
 				7F9051C12072BEA400085B33 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				7F9051C02072BEA400085B33 /* ViewController.swift in Sources */,
 				7F9051BE2072BEA400085B33 /* AppDelegate.swift in Sources */,
+				7F9051EC2072C50200085B33 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
